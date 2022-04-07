@@ -14,8 +14,8 @@ e realizar o ajuste das caixas em html
   box-sizing: border-box; /*ajuste de padding das caixas sem a soma com a largura*/
 }
 header {
-  height: 300px; /*aplicar altura do cabeçalho*/
-  background-image: url("../img/cafeteria2.png"); /*Aplicar uma imagem de fundo*/
+  height: 400px; /*aplicar altura do cabeçalho*/
+  background-image: url("../img/cafeteria4.jpg"); /*Aplicar uma imagem de fundo*/
   background-size: 100%; /*Ajustar o tamanho da imagem de fundo*/
   background-position-y: -175px;
   padding-top: 200px;
@@ -24,15 +24,16 @@ header {
 
 h1 {
   font-family: Arial;
-  font-size: 30pt;
-  color: black;
-  text-shadow: 5px 5px 10px white;
+  font-size: 50pt;
+  color: rgb(255, 208, 0);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 nav {
-  background-color: dimgray;
+  background-color: rgb(255, 174, 0);
   padding: 10px;
   box-sizing: border-box;
+  font-size: 20pt;
   text-align: center;
 }
 
@@ -45,4 +46,50 @@ nav ul li a {
   color: black;
   font-family: Arial;
   text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url("../img/madeira.jpg");
+  height: 800px;
+  background-size: 100%;
+}
+
+footer {
+  background-color: rgba(126, 67, 27, 0.61);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+#endereco {
+  font-family: Arial;
+  font-size: 10pt;
+  color: black;
+  width: 300px;
+  text-align: left;
+  position: absolute;
+  left: 20px;
+}
+
+#redes {
+  position: absolute;
+  right: 10px;
+}
+
+#redes ul {
+  list-style: none;
+}
+
+#redes ul li {
+  display: inline-block;
+  margin-inline: 10px;
+}
+
+#redes ul li a img {
+  width: 40px;
+  height: 40px;
 }
