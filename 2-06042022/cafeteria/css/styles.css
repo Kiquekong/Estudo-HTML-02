@@ -102,6 +102,7 @@ h2 {
   border-bottom: 1px dashed;
   padding-top: 20px;
   box-sizing: border-box;
+  text-shadow: 5px 5px 5px black;
 }
 
 main p {
@@ -159,4 +160,76 @@ main p {
   height: 500px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+/*===================fim formatação história===================*/
+/*===================Inicio formatação cardápio===================*/
+h3 {
+  text-transform: uppercase;
+  font-size: 30pt;
+  text-align: center;
+  font-family: Arial;
+  color: bisque;
+  text-shadow: 2px 2px 2px black;
+}
+
+#linha {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#linha #produto {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 10px;
+  margin-inline: 5px;
+}
+
+#linha #produto #imgprod img {
+  width: 225px;
+  height: 175px;
+  border-radius: 5%;
+}
+
+#linha #produto #imgprod,
+#linha #produto #descricao {
+  width: 48%;
+  margin: 10px;
+  transition: ease 0.5s;
+}
+
+#linha #produto #descricao {
+  color: bisque;
+  margin: 10px;
+}
+
+h4 {
+  font-family: Arial;
+  font-size: 20pt;
+  font-weight: lighter;
+  color: rgba(192, 172, 147, 0.897);
+  text-shadow: 2px 2px 2px black;
+}
+
+h5 {
+  font-family: Arial;
+  font-size: 10pt;
+  font-weight: lighter;
+  color: bisque;
+  text-shadow: 2px 2px 2px black;
+}
+
+h6 {
+  font-family: Arial;
+  font-size: 15pt;
+  font-weight: lighter;
+  color: rgba(150, 134, 114, 0.897);
+  text-shadow: 2px 2px 2px black;
+}
+
+#linha #produto:hover {
+  background-color: rgba(88, 80, 70, 0.849);
+  cursor: pointer;
+  border-radius: 7.5%;
 }
