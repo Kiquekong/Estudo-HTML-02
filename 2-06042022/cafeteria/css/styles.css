@@ -33,7 +33,7 @@ nav {
   background-color: rgb(68, 29, 2);
   padding: 10px;
   box-sizing: border-box;
-  font-size: 20pt;
+  font-size: 15pt;
   text-align: center;
 }
 
@@ -122,8 +122,8 @@ main p {
 }
 
 #imghome img {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 60px;
   opacity: 0.9;
   margin: 100px;
@@ -136,3 +136,27 @@ main p {
   transform: rotate(360deg);
 }
 /* =====================Fim Formatação Home===================== */
+/*===================Formatação História===================*/
+#imghistoria {
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imghistoria img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#videohistoria {
+  text-align: center;
+}
+
+#videohistoria iframe {
+  width: 60%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
