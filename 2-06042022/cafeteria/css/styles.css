@@ -184,6 +184,7 @@ h3 {
   width: 40%;
   margin: 10px;
   margin-inline: 5px;
+  padding-left: 20 px;
 }
 
 #linha #produto #imgprod img {
@@ -232,4 +233,17 @@ h6 {
   background-color: rgba(88, 80, 70, 0.849);
   cursor: pointer;
   border-radius: 7.5%;
+}
+
+/*===================Fim Configuração Cardápio===================*/
+/*===================Configuração mapa===================*/
+#mapa {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mapa iframe {
+  width: 100%;
+  height: 400px;
 }
