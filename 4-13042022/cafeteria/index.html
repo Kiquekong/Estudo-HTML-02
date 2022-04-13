@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,café,bolo,croissant">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lareira de Hestia</title>
+</head>
+<body>
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>Cafeteria Lareira de Hestia</h1>
+    </header>
+    <nav>
+        <a id="fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Seja bem-vido à casa de Hestia, sinta-se em casa</h2>
+        <p><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati unde fuga veritatis laborum, placeat ipsa nemo molestiae corporis a. Iusto totam quaerat odio, nemo aperiam laborum consectetur veniam harum eveniet?</span><span>Assumenda ea eveniet porro consectetur, temporibus, iste fugiat recusandae sequi dolorem voluptas velit cum accusantium molestias. Molestias nemo enim fuga esse cupiditate magnam cum a veritatis, consequuntur itaque aliquam ullam!</span><span>Unde soluta officia ex necessitatibus ea ut, nisi maiores explicabo dignissimos enim, amet at, maxime inventore libero hic magni dicta modi praesentium temporibus labore perferendis. Tenetur rerum obcaecati reprehenderit quaerat?</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia accusantium voluptate pariatur corrupti ut, quos dolorem quis alias corporis minima ab totam consectetur maiores numquam repellat eum voluptatibus nulla animi!</span><span>Minus quos cum fuga repellendus porro molestiae vitae consequatur sequi ea, modi obcaecati dolore error ratione tempore et animi dolor nisi optio perspiciatis voluptate sint veniam in? Quae, omnis quaerat.</span><span>Nesciunt, quod nihil ad eveniet saepe, minus doloribus repellendus non perferendis molestiae officiis culpa in totam! Distinctio at esse expedita laudantium molestiae harum atque odit voluptatem praesentium. Officia, eum nihil.</span></p>
+        <div id="imghome">
+            <img src="img/lanche11.jpg" alt="Lanche natural de frango">
+            <img src="img/tomarcafe3.jpg" alt="Mulher ruiva tomando café">
+        </div>
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Chamantá, 891 <br>
+            Vila Prudente, São Paulo - SP, 03127-000 <br>
+            Telefone 11 2704-6436
+        </div>
+        
+        <div id="redes">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse nosso Facebook"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse nosso YouTube"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Acesse nosso Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px"
+        }
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px"
+        }
+    </script>
+
+</body>
+</html>

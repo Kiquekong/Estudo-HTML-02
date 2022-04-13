@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,café,bolo,croissant">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lareira de Hestia</title>
+</head>
+<body>
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>Cafeteria Lareira de Hestia</h1>
+    </header>
+    <nav>
+        <a id="fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Onde nos Encontrar</h2>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7088903209637!2d-46.58881928491642!3d-23.578896568125355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c05858c6e17%3A0x223f4e51fa169139!2sFran&#39;s%20Caf%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1649428396646!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Chamantá, 891 <br>
+            Vila Prudente, São Paulo - SP, 03127-000 <br>
+            Telefone 11 2704-6436
+        </div>
+        
+        <div id="redes">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse nosso Facebook"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse nosso YouTube"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Acesse nosso Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px"
+        }
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px"
+        }
+    </script>
+
+</body>
+</html>

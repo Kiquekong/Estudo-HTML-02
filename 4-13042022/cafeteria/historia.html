@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,café,bolo,croissant">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lareira de Hestia</title>
+</head>
+<body>
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>Cafeteria Lareira de Hestia</h1>
+    </header>
+    <nav>
+        <a id="fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Conheça nossa História</h2>
+        <div id="imghistoria">
+            <img src="img/bebida.jpg" alt="Capuccino com cobertura de chantilly e caramelo">
+            <img src="img/croissant4.jpg" alt="Croissant com morangos acompanhado por um copo de café">
+            <img src="img/bolo7.png" alt="Fatia de bolo de mousse de chocolate">
+            <img src="img/bebida9.jpg" alt="chá com anix, laranja e canela">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae, vel voluptatum fuga deleniti non enim porro voluptas provident minima ipsa quod ad ex consequuntur aut, exercitationem distinctio voluptatibus laborum.</p>
+        <div id="videohistoria">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Th_syaxAW0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Chamantá, 891 <br>
+            Vila Prudente, São Paulo - SP, 03127-000 <br>
+            Telefone 11 2704-6436
+        </div>
+        
+        <div id="redes">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse nosso Facebook"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse nosso YouTube"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Acesse nosso Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px"
+        }
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px"
+        }
+    </script>
+
+</body>
+</html>
